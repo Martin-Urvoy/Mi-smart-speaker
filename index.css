@@ -1,0 +1,102 @@
+body {
+    font-family: 'Josefin Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-size: 35px;
+}
+
+h2 {
+    color: #5d81e5;
+    font-size: 30px;
+}
+
+h3 {
+    font-size: 25px;
+    color: #5d81e5;
+}
+
+p {
+    color: red;
+    font-size: 20px;
+}
+
+.section0 {
+    background-image: url("image/la\ torture.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    background-repeat: no-repeat;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section0 h2 {
+    color: black;
+}
+
+.section69 {
+    display: flex;
+    width: 100%;
+    margin-bottom: 20vh;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+.section1 {
+    margin: auto;
+    background-image: url("image/daedinside.png");
+    background-size: cover;
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    background-repeat: no-repeat;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.section2 {
+    background-image: url("image/a3.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    background-repeat: no-repeat;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.other {
+    background-repeat: no-repeat;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: -235px;
+    text-align: center;
+}
+
+
+.section3 {
+    background-image: url("image/a4.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    background-repeat: no-repeat;
+    align-items: center;
+}
+
+.ladecheance img {
+    width: 100%;
+}
+
+@media screen and (max-width: 800px) {
+    .section69 img {
+        max-width: 100%;
+    }
+}
